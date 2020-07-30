@@ -8,9 +8,9 @@ Supported wild cards:<br>
 This is actually a subset of a regular expression partial match. Both of which are not available OOB in JS.<br>
 
 ### A use case example:
-When only part of the input is available and there is a need to understand whether this input may potentially be completed<br>
+When only part of the input is available and there is a need to understand whether this input may potentially be completed
 to match a desired pattern (described with wildcards) in order to show a notification to the user.<br>
-Appending the partial input with * and matching it with the desired pattern will reveal if the input can be completed to match<br>
+Appending the partial input with * and matching it with the desired pattern will reveal if the input can be completed to match
 the pattern.<br>
 
 ### Examples:
