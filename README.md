@@ -17,11 +17,11 @@ the pattern.<br>
 
 
 
-    const w2match = require('wild2wild_matcher');
-    
-    w2match('hello\*world', 'hello\*');           // => true
-    w2match('hello\*world', 'hello\*jimbo');      // => false
-    w2match('h?llo?wor?d', '??llo w?rld');        // => true
-    w2match('he??o?world', 'he\*d');              // => true
-    w2match('he??o?world', 'helo world\*');       // => false
+    const {w2match} = require('wild2wild_matcher');
+
+    console.log(w2match('hello\*world', 'hello\*'));           // => true
+    console.log(w2match('hello\*world', 'hello\*jimbo'));      // => false
+    console.log(w2match('h?llo?wor?d', '??llo w?rld'));        // => true
+    console.log(w2match('he??o?world', 'he\*d'));              // => true
+    console.log(w2match('he??o?world', 'helo world\*'));       // => false
 

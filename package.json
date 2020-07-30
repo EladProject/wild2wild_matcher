@@ -1,6 +1,6 @@
 {
   "name": "wild2wild_matcher",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Compare two wildcard strings to each other",
   "main": "index.js",
   "scripts": {
