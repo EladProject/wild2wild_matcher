@@ -2,7 +2,7 @@
 
 A function to match two wildcard strings to each other.<br>
 Supported wild cards:<br>
-\* - Zero or more charachters<br>
+\* - Zero or more characters<br>
 ? - Exactly one character<br><br>
 
 This is actually a subset of a regular expression partial match. Both of which are not available OOB in JS.<br>
