@@ -1,17 +1,17 @@
-#wild2wild_matcher
+# wild2wild_matcher
 
-A function to match two wildcard strings to each other.
-Supported wild cards:
-\* - Zero or more charachters
-? - Exactly one character
+A function to match two wildcard strings to each other.<br>
+Supported wild cards:<br>
+\* - Zero or more charachters<br>
+? - Exactly one character<br><br>
 
-This is actually a subset of a regular expression partial match. Both of which are not available OOB in JS.
+This is actually a subset of a regular expression partial match. Both of which are not available OOB in JS.<br>
 
 ### A use case example:
-When only part of the input is available and there is a need to understand whether this input may potentially be completed
-to match a desired pattern (described with wildcards) in order to show a notification to the user.
-Appending the partial input with * and matching it with the desired pattern will reveal if the input can be completed to match
-the pattern.
+When only part of the input is available and there is a need to understand whether this input may potentially be completed<br>
+to match a desired pattern (described with wildcards) in order to show a notification to the user.<br>
+Appending the partial input with * and matching it with the desired pattern will reveal if the input can be completed to match<br>
+the pattern.<br>
 
 ### Examples:
 
