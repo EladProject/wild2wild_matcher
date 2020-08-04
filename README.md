@@ -25,3 +25,11 @@ the pattern.<br>
     console.log(w2match('he??o?world', 'he\*d'));              // => true
     console.log(w2match('he??o?world', 'helo world\*'));       // => false
 
+### Efficiency
+This recursive algorithm is not the most efficient one. A more efficient (but less elegant) algorithm can be written by separating to several cases.
+For example, noticing that if there is at least one * in the middle of each string, there is only a need to compare the 
+prefixes (before the first *s) and the suffixes (after the last *s). 
+Another case is when only one string has *s in the middle. Then there is a need to check each substring delimited by *s for containment in the other string and also check 
+the order.
+Other cases include when the *s are in the beginning and end of the strings.
+
